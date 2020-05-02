@@ -1,4 +1,18 @@
-Screenshot
+###### Info
+configure ini file: __pandroid.ini__
+
+You need to install
+- android __sdk__ 
+- __Java 8__ 
+- apache __ant__
+
+for lazarus cross compile
+- __jvm-android__
+- __arm-android__ or aarch64-android
+
+
+
+###### Screenshot
 ![GitHub Logo](/images/pandroid.png) 
 
 ###### License
