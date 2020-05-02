@@ -7,7 +7,7 @@ You need to install
 - apache __ant__
 
 for lazarus cross compile
-- __jvm-android__  (android vizual create AWLinearLayout, AWButton, AWEditText, AWTextView, ...)     
+- __jvm-android__  (android vizual create AWLinearLayout, AWButton, AWEditText, AWTextView, ...; include *.jar file)     
 - __arm-android__ or __aarch64-android__ (not vizual component, pascalscript, indy, ...) 
 
 
