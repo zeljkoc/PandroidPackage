@@ -1,5 +1,5 @@
 ###### Info
-configure ini file: __pandroid.ini__
+Configure ini file: __pandroid.ini__
 
 You need to install
 - android __sdk__ 
@@ -7,8 +7,10 @@ You need to install
 - apache __ant__
 
 for lazarus cross compile
-- __jvm-android__
-- __arm-android__ or aarch64-android
+- __jvm-android__                     
+   (android vizual create AWLinearLayout, AWButton, AWEditText, AWTextView, ...) 
+- __arm-android__ or aarch64-android 
+   (not vizual component, pascalscript, indy, ...) 
 
 
 
