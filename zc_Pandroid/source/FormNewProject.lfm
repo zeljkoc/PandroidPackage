@@ -1,0 +1,120 @@
+object NewProject: TNewProject
+  Left = 1520
+  Height = 225
+  Top = 250
+  Width = 684
+  Caption = 'NewProject'
+  ClientHeight = 225
+  ClientWidth = 684
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '2.1.0.0'
+  object GroupBox1: TGroupBox
+    Left = 24
+    Height = 159
+    Top = 17
+    Width = 648
+    Caption = 'Application for android'
+    ClientHeight = 140
+    ClientWidth = 644
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 11
+      Height = 17
+      Top = 18
+      Width = 119
+      Caption = 'Application name:'
+      ParentColor = False
+    end
+    object eAppName: TEdit
+      Left = 144
+      Height = 27
+      Top = 8
+      Width = 216
+      OnExit = eAppNameExit
+      TabOrder = 0
+    end
+    object Label2: TLabel
+      Left = 35
+      Height = 17
+      Top = 49
+      Width = 95
+      Caption = 'Java packgage'
+      ParentColor = False
+    end
+    object eJavaPackageName: TEdit
+      Left = 144
+      Height = 27
+      Top = 40
+      Width = 216
+      CharCase = ecLowerCase
+      TabOrder = 1
+      Text = 'pandroid.com.'
+    end
+    object eProjectDir: TDirectoryEdit
+      Left = 144
+      Height = 27
+      Top = 71
+      Width = 488
+      ShowHidden = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      MaxLength = 0
+      TabOrder = 2
+    end
+    object Label3: TLabel
+      Left = 16
+      Height = 17
+      Top = 81
+      Width = 114
+      Caption = 'Project directory:'
+      ParentColor = False
+    end
+    object Label4: TLabel
+      Left = 374
+      Height = 17
+      Top = 45
+      Width = 129
+      Caption = '+ Application name'
+      Font.Color = clSilver
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label5: TLabel
+      Left = 16
+      Height = 17
+      Top = 112
+      Width = 114
+      Caption = 'Project template:'
+      ParentColor = False
+    end
+    object cbProject: TComboBox
+      Left = 144
+      Height = 29
+      Top = 104
+      Width = 495
+      ItemHeight = 0
+      TabOrder = 3
+      Text = 'cbProject'
+    end
+  end
+  object Button1: TButton
+    Left = 496
+    Height = 25
+    Top = 184
+    Width = 163
+    Caption = 'Create new project'
+    ModalResult = 1
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 400
+    Height = 25
+    Top = 184
+    Width = 75
+    Caption = 'Cancel'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+end

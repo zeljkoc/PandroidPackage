@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="zc_Pandroid"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Zeljko Cvijanovic"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="source"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <License Value="Pandroid is released under Mozilla Public License 2.0 (MPL-2.0)"/>
+    <Version Major="2" Build="1"/>
+    <Files Count="2">
+      <Item1>
+        <Filename Value="RegLazPandroid.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="RegLazPandroid"/>
+      </Item1>
+      <Item2>
+        <Filename Value="source/FormNewProject.pas"/>
+        <UnitName Value="FormNewProject"/>
+      </Item2>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

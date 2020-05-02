@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="pandroid.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="220"/>
+        <CursorPos X="72" Y="243"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="6" HistoryIndex="5">
+      <Position1>
+        <Filename Value="pandroid.lpr"/>
+        <Caret Line="405" Column="6" TopLine="368"/>
+      </Position1>
+      <Position2>
+        <Filename Value="pandroid.lpr"/>
+        <Caret Line="340" Column="3" TopLine="304"/>
+      </Position2>
+      <Position3>
+        <Filename Value="pandroid.lpr"/>
+        <Caret Line="308" Column="66" TopLine="295"/>
+      </Position3>
+      <Position4>
+        <Filename Value="pandroid.lpr"/>
+        <Caret Line="383" Column="64" TopLine="363"/>
+      </Position4>
+      <Position5>
+        <Filename Value="pandroid.lpr"/>
+        <Caret Line="382" Column="65" TopLine="364"/>
+      </Position5>
+      <Position6>
+        <Filename Value="pandroid.lpr"/>
+        <Caret Line="402" Column="9" TopLine="379"/>
+      </Position6>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
