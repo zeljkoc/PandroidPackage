@@ -1,2 +1,2 @@
 Screenshot
-![GitHub Logo](/images/new.png) ![GitHub Logo](/images/CreateNewProject.png) 
+![GitHub Logo](/images/pandroid.png) 
