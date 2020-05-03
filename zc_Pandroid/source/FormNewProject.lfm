@@ -40,7 +40,7 @@ object NewProject: TNewProject
       Height = 17
       Top = 49
       Width = 95
-      Caption = 'Java packgage'
+      Caption = 'Java package'
       ParentColor = False
     end
     object eJavaPackageName: TEdit
