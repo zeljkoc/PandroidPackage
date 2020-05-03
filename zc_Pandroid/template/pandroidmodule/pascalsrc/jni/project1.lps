@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units Count="14">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="59" Y="13"/>
+        <UsageCount Value="218"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="PandoidModule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="41" Y="36"/>
+        <UsageCount Value="218"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="ZCPascalScript.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DataM"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="82"/>
+        <CursorPos X="77" Y="88"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="PandroidPipesComm.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="41" Y="9"/>
+        <UsageCount Value="35"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../compile.sh"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="29" Y="3"/>
+        <UsageCount Value="106"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Bash"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../src/PandroidModule.java"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="43" Y="6"/>
+        <UsageCount Value="106"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Java"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../FreePascal/lazarus/components/uib25/source/uibase.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2936"/>
+        <CursorPos X="23" Y="2963"/>
+        <UsageCount Value="27"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../../PROJEKTI/Lazarus/Units/zcDataStream.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <CursorPos X="50" Y="70"/>
+        <UsageCount Value="9"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../../../PROJEKTI/Lazarus/Units/Unit_Indy_Classes.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="9"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../../../../PROJEKTI/Lazarus/Units/Unit_Indy_Functions.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="114"/>
+        <CursorPos Y="114"/>
+        <UsageCount Value="9"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../../../../FreePascal/Komponente/zc_indy/Source/IdMessage.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="816"/>
+        <CursorPos X="47" Y="831"/>
+        <UsageCount Value="4"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="uReplicate.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="29"/>
+        <CursorPos Y="46"/>
+        <UsageCount Value="19"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="/usr/local/pandroid/FreePascal/Komponente/zc_FastScript/Source/fs_synmemo.pas"/>
+        <ComponentName Value="fsSynMemoSearch"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="ZCScriptUtisl.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6" Y="13"/>
+        <UsageCount Value="15"/>
+      </Unit13>
+    </Units>
+    <JumpHistory Count="11" HistoryIndex="10">
+      <Position1>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="12" Column="63"/>
+      </Position1>
+      <Position2>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="24" Column="42"/>
+      </Position2>
+      <Position3>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="10" Column="8"/>
+      </Position3>
+      <Position4>
+        <Filename Value="PandoidModule.pas"/>
+        <Caret Line="39" Column="61"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ZCPascalScript.pas"/>
+        <Caret Line="36" Column="45" TopLine="20"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ZCPascalScript.pas"/>
+        <Caret Line="103" TopLine="82"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ZCPascalScript.pas"/>
+        <Caret Line="32" Column="48" TopLine="24"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ZCPascalScript.pas"/>
+        <Caret Line="48" TopLine="36"/>
+      </Position8>
+      <Position9>
+        <Filename Value="PandoidModule.pas"/>
+        <Caret Line="13" Column="36"/>
+      </Position9>
+      <Position10>
+        <Filename Value="PandoidModule.pas"/>
+        <Caret Line="53" Column="9" TopLine="32"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../compile.sh"/>
+        <Caret Line="19"/>
+      </Position11>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
