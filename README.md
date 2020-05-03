@@ -14,7 +14,8 @@ You need to install
 
 for lazarus cross compile ([__laz4android__](https://sourceforge.net/projects/laz4android/files/laz4android1.5-50093-FPC3.1.1.7z/download))
 - __jvm-android__  (android vizual create AWLinearLayout, AWButton, AWEditText, AWTextView, ...; include *.jar file)     
-- __arm-android__ or __aarch64-android__ (not vizual component, pascalscript, indy, ...) 
+- __arm-android__ or __aarch64-android__ (not vizual component, pascalscript, indy, ...)
+  [__ndk__ for arm-android and aarch64-android ](https://developer.android.com/ndk/downloads) 
 
 
 
