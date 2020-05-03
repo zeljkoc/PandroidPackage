@@ -3,7 +3,7 @@
 
 ###### Info
 Configure ini file: __pandroid.ini__
-Change keystore/__zeljus.keystore__ and to correct template/__ant.propertie__
+Change keystore/__zeljus.keystore__ and to correct template/__ant.properties__
 
 You need to install
 - android __sdk__ 
