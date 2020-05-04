@@ -1,7 +1,6 @@
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/zeljus?locale.x=en_US)
+[![Lazarus package](https://img.shields.io/badge/-Lazarus%20package-green.svg)
 ![Platforms](https://img.shields.io/badge/Platforms-Linux%20and%20Windows-red.svg)
-![Lazarus support](https://img.shields.io/badge/-Lazarus%20package-green.svg)
+![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/zeljus?locale.x=en_US)
 
 #### Info
 Configure ini file: __pandroid.ini__
