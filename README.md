@@ -1,7 +1,7 @@
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/zeljus?locale.x=en_US)
 
-###### Info
+#### Info
 Configure ini file: __pandroid.ini__
 
 Change keystore/__zeljus.keystore__ and to correct template/__ant.properties__
@@ -19,12 +19,12 @@ for lazarus cross compile ([__laz4android__](https://sourceforge.net/projects/la
 
 
 
-###### Screenshot
+#### Screenshot
 ![GitHub Logo](/images/pandroid.png) 
 
-###### License
+#### License
 - __pandroid__  is released under Mozilla Public License 2.0 (MPL-2.0)
 
-###### Autor
+#### Autor
 - Made by  __Željko Cvijanović__  and  __Miran Horjak__ 
 
