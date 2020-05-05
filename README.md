@@ -1,4 +1,5 @@
 ![Lazarus package](https://img.shields.io/badge/-Lazarus%20package-green.svg)
+![Full source](https://img.shields.io/badge/-Full%20source-green.svg)
 ![Platforms](https://img.shields.io/badge/Platforms-Linux%20and%20Windows-red.svg)
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/zeljus?locale.x=en_US)
