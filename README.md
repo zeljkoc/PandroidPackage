@@ -12,7 +12,7 @@ Change keystore/__zeljus.keystore__ and to correct template/__ant.properties__
 
 
 You need to install
-- [x] [android __sdk__](https://androidsdkmanager.azurewebsites.net/Buildtools) 
+- [x] [android __sdk__](https://androidsdkmanager.azurewebsites.net/tools.html) 
 - [x] [__OpenJdk-8__](https://developers.redhat.com/products/openjdk/download)
 - [x] [apache __ant__](http://archive.apache.org/dist/ant/binaries/)
 
