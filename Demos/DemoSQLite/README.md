@@ -4,10 +4,8 @@ The list can be scrolled, changing the color of the column, the size of the lett
 ...
 
 #### Screenshot
-![GitHub Logo](/images/DemoSqlite01.png = 100 x 300) 
-![GitHub Logo](/images/DemoSqlite02.png = 100 x 300) 
-![GitHub Logo](/images/DemoSqlite03.png = 100 x 300) 
-![GitHub Logo](/images/DemoSqlite04.png = 100 x 300) 
-![GitHub Logo](/images/DemoSqlite05.png = 100 x 300) 
+![GitHub Logo](/images/DemoSqlite01.png) ![GitHub Logo](/images/DemoSqlite02.png) 
+![GitHub Logo](/images/DemoSqlite03.png) ![GitHub Logo](/images/DemoSqlite04.png) 
+![GitHub Logo](/images/DemoSqlite05.png) 
 
 
