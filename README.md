@@ -22,6 +22,17 @@ for lazarus cross compile ([__laz4android__](https://sourceforge.net/projects/la
 - [x] [__ndk__ for arm-android and aarch64-android ](https://developer.android.com/ndk/downloads) 
 
 
+Pandroid exe or pandroid for linux compiled from PandroidTools
+- 1. Lazarus compiler calls before pandorid.exe and creates R.java and Rjava.pas, necessary for compiling Pascal classes.
+- 2. The second part compiles the classes from the paskal code
+- 3.  Lazarus compiler calls after pandorid.exe and makes a script to create apk, and create apk
+
+On linux it works fine and waits for compilation, which on windows i failed but make apk
+If you do not compile the apk on Windows, they can be run android\BuildApk.bat , and see the compilation.
+
+Attached is the possibility of a template more for arm-android compilation, such as pandroidmodule,
+making * .so then making  PandroidModule.jar and finally making PandroidModule.pas PandroidModule.inc for the compiler
+
 
 #### Screenshot
 ![GitHub Logo](/images/pandroid.png) 
