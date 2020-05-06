@@ -14,7 +14,7 @@ Change keystore/__zeljus.keystore__ and to correct template/__ant.properties__
 You need to install
 - [x] [android __sdk__](http://www.dre.vanderbilt.edu/~schmidt/android/android-4.0/out/target/common/docs/doc-comment-check/sdk/older_releases.html) 
 - [x] [__OpenJdk-8__](https://developers.redhat.com/products/openjdk/download)
-- [x] [apache __ant__](http://archive.apache.org/dist/ant/binaries/)
+- [x] [apache __ant__](https://ant.apache.org/)
 
 for lazarus cross compile ([__laz4android__](https://sourceforge.net/projects/laz4android/))
 - [x] __jvm-android__  (android vizual create AWLinearLayout, AWButton, AWEditText, AWTextView, ...; include *.jar file)     
