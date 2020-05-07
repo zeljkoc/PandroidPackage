@@ -49,6 +49,8 @@ TDBFindDialog, TDBLookupComboBox, TDBGridViewCheckedLayout
 ![Platforms](https://img.shields.io/badge/unit-Dialogs-red.svg)
 TDialog, TTimePickerDialog, TDatePickerDialog, TUserNamePasswordDialog, TEditFileDialog, TTextEditDialog, TYesNoDialog
 
+![Platforms](https://img.shields.io/badge/unit-AZCToolBar-red.svg)
+TZCArrayAddapter, TZCToolBar
 
 
 #### License
