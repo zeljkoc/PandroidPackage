@@ -37,6 +37,12 @@ making * .so then making  PandroidModule.jar and finally making PandroidModule.p
 #### Screenshot
 ![GitHub Logo](/images/pandroid.png) 
 
+#### Component overview
+![Platforms](https://img.shields.io/badge/unit-StdCtrls-red.svg)
+TTextView, TLabelTextView, TEditText, TLabelEditText, TButton, TLabelEditTextButton, TLabelButton, TButtonLabel, 
+TButtonEditText, TImageButton, TCheckBox, TRadioGroup, TGridViewLayout
+
+
 #### License
 - __pandroid__  is released under Mozilla Public License 2.0 (MPL-2.0)
 
