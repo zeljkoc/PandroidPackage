@@ -46,6 +46,10 @@ TButtonEditText, TImageButton, TCheckBox, TRadioGroup, TGridViewLayout
 TValue, TField, TFieldDef, TCursorDataSet, TDataSetAddapter, TDBEditText, TDBTextView, TDBDialog, TDBGridViewLayout,
 TDBFindDialog, TDBLookupComboBox, TDBGridViewCheckedLayout
 
+![Platforms](https://img.shields.io/badge/unit-Dialogs-red.svg)
+TDialog, TTimePickerDialog, TDatePickerDialog, TUserNamePasswordDialog, TEditFileDialog, TTextEditDialog, TYesNoDialog
+
+
 
 #### License
 - __pandroid__  is released under Mozilla Public License 2.0 (MPL-2.0)
