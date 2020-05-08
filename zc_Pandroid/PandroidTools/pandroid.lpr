@@ -195,7 +195,7 @@ begin
 end;
 
 
-function ShellRun(curdir: String; exename: String; commands:array of String;  outputstring:string):boolean;
+function ShellRun(curdir: String; exename: String; commands:array of String; var outputstring:string):boolean;
 begin
   {$IFDEF Linux}
    Result := RunCommandIndir(curdir, exename, commands, outputstring, [poWaitOnExit,poStderrToOutPut,poNoConsole]);
