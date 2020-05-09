@@ -211,12 +211,17 @@ end;
 
 procedure Build_Before(APackgDir: String; AProjFile: String);
 var
-  Str, Message: String;
+  Str: String;
   lFile: TStringList;
   i: integer;
-
+  {$IFDEF Linux}
+  Message: String
   arguments: array of string;
   executable: string;
+  {$ELSE}
+  AProcess: TProcess;
+  {$ENDIF}
+  
 begin
    LoadIniFile;
    gAppName := ExtractFileNameOnly(AProjFile);
@@ -311,26 +316,38 @@ begin
                  Writeln('=================OK.... aapt' +LineEnding+ Message+LineEnding)
            else begin Writeln('=================ERROR .... aapt' +LineEnding+ Message+LineEnding); Abort; end;
        {$ELSE}
-          if ShellExecute(0, nil, PChar('cd '+gProjectDir+'\android\'), PChar('') , nil , 0) = 2 then Writeln ('OK ... cd ') else begin Writeln ('Error ... cd ');  {Abort;} end;
-          if ShellExecute(0, nil, PChar('ant clean'), PChar('') , nil , 0)  = 2  then Writeln ('OK... ant clean') else begin Writeln ('Error... ant clean'); {Abort;} end;;
+          lFile.Clear;
+          lFile.Add('cd '+ gProjectDir+'\android' );
+          lFile.Add('del '+ gProjectDir+ PathDelim + gAppName+'.apk');
+          lFile.Add('rd bin /s /q');
+          lFile.Add('rd gen /s /q');
+          lFile.Add('mkdir bin');
+          lFile.Add('mkdir bin\classes');
+          lFile.Add('mkdir gen');
+          lFile.Add('');
+          lFile.Add(gAndroidSDKDir+'\build-tools\'+gBuildTools+'\aapt.exe '+
+                   'package -m -J '+
+                   gProjectDir+'\android\gen -M '+
+                   gProjectDir+'\android\AndroidManifest.xml -S '+
+                   gProjectDir+'\android\res -I '+
+                   gAndroidSDKDir+'\platforms\'+gTarget+'\android.jar -S '+
+                   gProjectDir+'\android\res -m -J '+
+                   gProjectDir+'\android\gen ');
 
-           Str := gProjectDir+'\android\bin';
-           if CreateDirUTF8(Str) then Writeln('Create: '+Str) else begin Writeln('Error... Create: '+Str); {Abort}; end;;
-           if CreateDirUTF8(Str+'\classes') then Writeln('Create: '+ Str+'\classes') else begin Writeln('Error... Create: '+ Str+'\classes'); {Abort}; end;
+          lFile.SaveToFile(gProjectDir+'\android\BuildBefore.bat');
+          AProcess:= TProcess.Create(nil);
+          try
+            AProcess.CommandLine:= gProjectDir+'\android\BuildBefore.bat > '+gProjectDir+'\android\OutBefore.txt';
+            AProcess.Options:=[poUsePipes, poWaitOnExit];
+            AProcess.Execute;
+            if FileExistsUTF8(gProjectDir+'\android\OutBefore.txt') then begin
+              lFile.LoadFromFile(gProjectDir+'\android\OutBefore.txt');
+              Writeln(lFile.Text);
+            end;
 
-           Str := gProjectDir+'\android\gen';
-           if CreateDirUTF8(Str) then Writeln('Create: '+Str) else begin Writeln('Error... Create: '+Str); {Abort;} end;
-
-          if ShellExecute(0, nil, PChar(gAndroidSDKDir+'\build-tools\'+gBuildTools+'\aapt.exe '),
-                                PChar('package -m -J '+
-                                     gProjectDir+'\android\gen -M '+
-                                     gProjectDir+'\android\AndroidManifest.xml -S '+
-                                     gProjectDir+'\android\res -I '+
-                                     gAndroidSDKDir+'\platforms\'+gTarget+'\android.jar -S '+
-                                     gProjectDir+'\android\res -m -J '+
-                                     gProjectDir+'\android\gen '), nil , 0)  = 2  then Writeln ('OK.. aapt.exe') else begin  Writeln ('Error.. aapt.exe'); {Abort;} end;;
-          Sleep(500);
-
+          finally
+            AProcess.Free;
+          end;
        {$ENDIF}
 
 
@@ -350,11 +367,13 @@ end;
 
 procedure Build_After(APackgDir: String; AProjFile: String);
 var
+ {$IFDEF Linux}
   Message: String;
   arguments: array of string;
   executable: string;
-  {$IFDEF Windows}
-  ScriptFile: TStringList;
+  {$ELSE}
+   lFile: TStringList;
+   AProcess: TProcess;
   {$ENDIF}
 begin
     LoadIniFile;
@@ -388,26 +407,31 @@ begin
       else begin Writeln('=================ERROR .... jarsigner verify certs ' + LineEnding + Message+ LineEnding); Abort; end;
 
      {$ELSE}
-        ScriptFile:= TStringList.Create;
+        lFile:= TStringList.Create;
         try
-          ScriptFile.Add('cd '+gProjectDir+'\android\');
-          ScriptFile.Add('set JAVA_HOME='+gJavaHome+'&lt;jdkdir&gt;');
-          ScriptFile.Add('set JDK='+gJavaHome+'\bin');
-          ScriptFile.Add('ant -verbose release');
-          ScriptFile.Add('jarsigner -verify -verbose -certs '+gProjectDir+PathDelim+gAppName+'.apk');
+          lFile.Add('cd '+gProjectDir+'\android\');
+          lFile.Add('set JAVA_HOME='+gJavaHome+'\&lt;jdkdir&gt;');
+          lFile.Add('ant -verbose release');
+          lFile.Add('jarsigner -verify -verbose -certs '+gProjectDir+PathDelim+gAppName+'.apk');
 
-          ScriptFile.SaveToFile(gProjectDir+'\android\BuildApk.bat');
-          if ShellExecute(0, nil, PChar(gProjectDir+'\android\BuildApk.bat'), PChar('') , nil , 0) = 2 then Writeln ('') else begin {Abort;} end;
+          lFile.SaveToFile(gProjectDir+'\android\BuildApk.bat');
+
+          AProcess:= TProcess.Create(nil);
+          try
+            AProcess.CommandLine:= gProjectDir+'\android\BuildApk.bat > '+gProjectDir+'\android\OutAfter.txt';
+            AProcess.Options:=[poUsePipes, poWaitOnExit];
+            AProcess.Execute;
+            if FileExistsUTF8(gProjectDir+'\android\OutAfter.txt') then begin
+              lFile.LoadFromFile(gProjectDir+'\android\OutAfter.txt');
+              Writeln(lFile.Text);
+            end;
+          finally
+            AProcess.Free;
+          end;
+
         finally
-          ScriptFile.Free;
+          lFile.Free;
         end;
-
-      //  if ShellExecute(0, nil, PChar('cd '+gProjectDir+'\android\'), PChar('') , nil , 0) = 2 then Writeln ('') else begin {Abort;} end;
-      //  if ShellExecute(0, nil, PChar('set JAVA_HOME='+gJavaHome+'&lt;jdkdir&gt;'), PChar('') , nil , 0) = 2 then Writeln ('') else begin {Abort;} end;
-      //  if ShellExecute(0, nil, PChar('set JDK='+gJavaHome+'\bin'), PChar('') , nil , 0) = 2 then Writeln ('') else begin {Abort;} end;
-
-      //  if ShellExecute(0, nil, PChar('ant -verbose release'), PChar('') , nil , 0) = 2 then Writeln ('') else begin {Abort;} end;;
-      //  if ShellExecute(0, nil, PChar('jarsigner -verify -verbose -certs '+gProjectDir+PathDelim+gAppName+'.apk'), PChar('') , nil , 0) = 2 then Writeln ('') else begin {Abort;} end;
 
      {$ENDIF}
 
