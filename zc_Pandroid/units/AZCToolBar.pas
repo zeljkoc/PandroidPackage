@@ -11,8 +11,7 @@ unit AZCToolBar;
 
 interface
 
-//uses androidr15;
-{$include /usr/local/pandroid/units/AndroidVersion.inc}
+{$include AndroidVersion.inc}
 ;
 
 type
