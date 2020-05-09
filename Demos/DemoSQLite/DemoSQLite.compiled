@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1587379556"/>
-  <Params Value=" -Tandroid -Pjvm -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -Fi/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/units -Fu/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/units -Fu/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/units/pascal -Fu/home/zeljko/Android/TEST/DemoSQLite/ -FE/home/zeljko/Android/TEST/DemoSQLite/android/bin/classes/ -o/home/zeljko/Android/TEST/DemoSQLite/android/bin/classes/DemoSQLite -dandroid22 DemoSQLite.pas"/>
+  <Compiler Value="E:\Zeljus\pandroid\FreePascal\fpc\3.0.4\bin\i386-win32\fpc.exe" Date="1266896121"/>
+  <Params Value=" -Tandroid -Pjvm -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FiE:\Zeljus\PandroidPackage\zc_Pandroid\units -FuE:\Zeljus\PandroidPackage\zc_Pandroid\units -FuE:\Zeljus\PandroidPackage\zc_Pandroid\units\pascal -FuE:\Example\DemoSQLite\ -FEE:\Example\DemoSQLite\android\bin\classes\ -oE:\Example\DemoSQLite\android\bin\classes\DemoSQLite -dandroid15 DemoSQLite.pas"/>
 </CONFIG>

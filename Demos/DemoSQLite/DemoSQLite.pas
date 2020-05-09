@@ -5,16 +5,16 @@ unit DemoSQLite;
 {$namespace zeljus.com.demosqlite}
 
 interface
-{$include AndroidVersion.inc} 
+{$include AndroidVersion.inc}
 , Rjava, AActivity, Data, fEdit;
 
 
 type
-  MainActivity = class(Activity) 
-  public 
-    procedure onCreate(savedInstanceState: AOBundle); override; 
-    procedure onClick(aView: AVView); override; 
-  end; 
+  MainActivity = class(Activity)
+  public
+    procedure onCreate(savedInstanceState: AOBundle); override;
+    procedure onClick(aView: AVView); override;
+  end;
 
 implementation
 uses  AZCForms;
@@ -51,3 +51,4 @@ begin
 end;
 
 end.
+

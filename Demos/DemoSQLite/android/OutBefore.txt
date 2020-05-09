@@ -1,0 +1,16 @@
+
+E:\Example\DemoSQLite>cd E:\Example\DemoSQLite\android 
+
+E:\Example\DemoSQLite\android>del E:\Example\DemoSQLite\DemoSQLite.apk 
+
+E:\Example\DemoSQLite\android>rd bin /s /q 
+
+E:\Example\DemoSQLite\android>rd gen /s /q 
+
+E:\Example\DemoSQLite\android>mkdir bin 
+
+E:\Example\DemoSQLite\android>mkdir bin\classes 
+
+E:\Example\DemoSQLite\android>mkdir gen 
+
+E:\Example\DemoSQLite\android>E:\Zeljus\pandroid\sdk\build-tools\23.0.3\aapt.exe package -m -J E:\Example\DemoSQLite\android\gen -M E:\Example\DemoSQLite\android\AndroidManifest.xml -S E:\Example\DemoSQLite\android\res -I E:\Zeljus\pandroid\sdk\platforms\android-15\android.jar -S E:\Example\DemoSQLite\android\res -m -J E:\Example\DemoSQLite\android\gen  

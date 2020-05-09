@@ -1,97 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
-    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units>
-      <Unit>
+    <Units Count="1">
+      <Unit0>
         <Filename Value="DemoSQLite.pas"/>
-        <TopLine Value="28"/>
-        <CursorPos X="47" Y="49"/>
-        <UsageCount Value="10"/>
-        <Loaded Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="Data.pas"/>
-        <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="11"/>
-        <CursorPos X="14" Y="25"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="fEdit.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="61"/>
-        <CursorPos X="10" Y="86"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="android/AndroidManifest.xml"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="14"/>
-        <CursorPos X="52" Y="36"/>
+        <TopLine Value="19"/>
+        <CursorPos Y="54"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="XML"/>
-      </Unit>
-      <Unit>
-        <Filename Value="/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/units/pascal/DB.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="25"/>
-        <CursorPos X="3" Y="25"/>
-        <UsageCount Value="10"/>
-      </Unit>
+      </Unit0>
     </Units>
-    <JumpHistory HistoryIndex="9">
-      <Position>
-        <Filename Value="Data.pas"/>
-        <Caret Line="17"/>
-      </Position>
-      <Position>
+    <JumpHistory Count="1">
+      <Position1>
         <Filename Value="DemoSQLite.pas"/>
-        <Caret Line="19" Column="37" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="DemoSQLite.pas"/>
-        <Caret Line="20" Column="6" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="DemoSQLite.pas"/>
-        <Caret Line="35" Column="40" TopLine="14"/>
-      </Position>
-      <Position>
-        <Filename Value="fEdit.pas"/>
-        <Caret Line="32" Column="20" TopLine="12"/>
-      </Position>
-      <Position>
-        <Filename Value="fEdit.pas"/>
-        <Caret Line="20" Column="6" TopLine="9"/>
-      </Position>
-      <Position>
-        <Filename Value="fEdit.pas"/>
-        <Caret Line="53" Column="3" TopLine="31"/>
-      </Position>
-      <Position>
-        <Filename Value="fEdit.pas"/>
-        <Caret Line="51" Column="38" TopLine="45"/>
-      </Position>
-      <Position>
-        <Filename Value="fEdit.pas"/>
-        <Caret Line="53" Column="43" TopLine="43"/>
-      </Position>
-      <Position>
-        <Filename Value="fEdit.pas"/>
-        <Caret Line="66" TopLine="54"/>
-      </Position>
+        <Caret Line="12" Column="39"/>
+      </Position1>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
-      <Modes ActiveMode=""/>
+      <Modes Count="0" ActiveMode=""/>
     </RunParams>
   </ProjectSession>
 </CONFIG>

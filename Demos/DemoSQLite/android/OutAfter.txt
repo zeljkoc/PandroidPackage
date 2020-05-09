@@ -1,0 +1,290 @@
+
+E:\Example\DemoSQLite>cd E:\Example\DemoSQLite\android\ 
+
+E:\Example\DemoSQLite\android>set JAVA_HOME=E:\Zeljus\Java\  & lt;jdkdir  & gt; 
+
+E:\Example\DemoSQLite\android>ant -verbose release 
+Apache Ant(TM) version 1.9.7 compiled on April 9 2016
+Trying the default build file: build.xml
+Buildfile: E:\Example\DemoSQLite\android\build.xml
+Detected Java version: 1.7 in: E:\Zeljus\Java\jre
+Detected OS: Windows XP
+parsing buildfile E:\Example\DemoSQLite\android\build.xml with URI = file:/E:/Example/DemoSQLite/android/build.xml
+Project base dir set to: E:\Example\DemoSQLite\android
+parsing buildfile jar:file:/E:/Zeljus/apache-ant-1.9.7/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/E:/Zeljus/apache-ant-1.9.7/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+ [property] Loading E:\Example\DemoSQLite\android\project.properties
+ [property] Loading E:\Example\DemoSQLite\android\ant.properties
+Importing file E:\Zeljus\pandroid\sdk\tools\ant\build.xml from E:\Example\DemoSQLite\android\build.xml
+Overriding previous definition of reference to ant.projectHelper
+parsing buildfile E:\Zeljus\pandroid\sdk\tools\ant\build.xml with URI = file:/E:/Zeljus/pandroid/sdk/tools/ant/build.xml
+Override ignored for property "java.target"
+Override ignored for property "java.source"
+Overriding previous definition of reference to android.antlibs
+ [macrodef] creating macro  do-only-if-not-library
+ [macrodef] creating macro  do-only-if-manifest-hasCode
+ [macrodef] creating macro  dex-helper
+ [macrodef] creating macro  package-helper
+ [macrodef] creating macro  zipalign-helper
+ [macrodef] creating macro  run-tests-helper
+ [macrodef] creating macro  record-build-key
+ [macrodef] creating macro  record-build-info
+ [macrodef] creating macro  uninstall-helper
+Overriding previous definition of reference to ant.projectHelper
+Build sequence for target(s) `release' is [-set-mode-check, -set-release-mode, -release-obfuscation-check, -pre-build, -check-env, -setup, -build-setup, -code-gen, -pre-compile, -compile, -post-compile, -obfuscate, -dex, -crunch, -package-resources, -package, -post-package, -release-prompt-for-password, -release-nosign, -release-sign, -post-build, release]
+Complete build sequence is [-set-mode-check, -set-release-mode, -release-obfuscation-check, -pre-build, -check-env, -setup, -build-setup, -code-gen, -pre-compile, -compile, -post-compile, -obfuscate, -dex, -crunch, -package-resources, -package, -post-package, -release-prompt-for-password, -release-nosign, -release-sign, -post-build, release, -set-instrumented-mode, -set-debug-mode, -debug-obfuscation-check, -do-debug, instrument, emma, android_rules.-pre-build, android_rules.-release-obfuscation-check, android_rules.-setup, lint, android_rules.-release-sign, -test-project-check, android_rules.nodeps, android_rules.-set-debug-files, android_rules.-set-debug-mode, -set-debug-files, debug, -pre-clean, install, installd, android_rules.installt, android_rules.-dex, android_rules.installr, android_rules.emma, android_rules.-release-nosign, android_rules.-pre-compile, android_rules.instrument, android_rules.uninstall, android_rules.installi, android_rules.lint, android_rules.-obfuscate, android_rules.clean, android_rules.installd, android_rules.-post-build, android_rules.-debug-obfuscation-check, android_rules.-compile, installt, help, android_rules.release, installr, android_rules.-pre-clean, android_rules.-post-compile, installi, android_rules.-code-gen, android_rules.-release-prompt-for-password, android_rules.-package-resources, android_rules.-set-mode-check, android_rules.-test-project-check, test, android_rules.help, android_rules.install, clean, android_rules.-do-debug, android_rules.-check-env, android_rules.-package, android_rules.-set-instrumented-mode, android_rules.-post-package, android_rules.test, android_rules.debug, uninstall, android_rules.-build-setup, nodeps, android_rules.-crunch, , android_rules.-set-release-mode]
+
+-set-mode-check:
+
+-set-release-mode:
+Override ignored for property "out.packaged.file"
+Override ignored for property "out.final.file"
+
+-release-obfuscation-check:
+Property "proguard.config" has not been set
+     [echo] proguard.config is ${proguard.config}
+
+-pre-build:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.4
+ [checkenv] Installed at E:\Zeljus\pandroid\sdk
+
+-setup:
+     [echo] Project Name: DemoSQLite
+  [gettype] Project Type: Application
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+ [property] Loading E:\Example\DemoSQLite\android\bin\build.prop
+ [property] Unable to find property file: E:\Example\DemoSQLite\android\bin\build.prop
+     [echo] Resolving Build Target for DemoSQLite...
+[gettarget] Project Target:   Android 4.0.3
+[gettarget] API level:        15
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Skipping E:\Example\DemoSQLite\android\res because it already exists.
+    [mkdir] Skipping E:\Example\DemoSQLite\android\libs because it already exists.
+    [mkdir] Skipping E:\Example\DemoSQLite\android\bin because it already exists.
+    [mkdir] Created dir: E:\Example\DemoSQLite\android\bin\res
+    [mkdir] Created dir: E:\Example\DemoSQLite\android\bin\rsObj
+    [mkdir] Created dir: E:\Example\DemoSQLite\android\bin\rsLibs
+    [mkdir] Skipping E:\Example\DemoSQLite\android\gen because it already exists.
+    [mkdir] Skipping E:\Example\DemoSQLite\android\bin\classes because it already exists.
+    [mkdir] Created dir: E:\Example\DemoSQLite\android\bin\dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for DemoSQLite...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+[dependency] API<=15: Adding annotations.jar to the classpath.
+     [echo] ----------
+     [echo] Building Libraries with 'release'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+Property "android.library" has not been set
+     [aapt] Generating resource IDs...
+     [aapt] Current OS is Windows XP
+     [aapt] Executing 'E:\Zeljus\pandroid\sdk\build-tools\23.0.3\aapt.exe' with arguments:
+     [aapt] 'package'
+     [aapt] '-f'
+     [aapt] '-m'
+     [aapt] '-M'
+     [aapt] 'E:\Example\DemoSQLite\android\bin\AndroidManifest.xml'
+     [aapt] '-S'
+     [aapt] 'E:\Example\DemoSQLite\android\bin\res'
+     [aapt] '-S'
+     [aapt] 'E:\Example\DemoSQLite\android\res'
+     [aapt] '-I'
+     [aapt] 'E:\Zeljus\pandroid\sdk\platforms\android-15\android.jar'
+     [aapt] '-J'
+     [aapt] 'E:\Example\DemoSQLite\android\gen'
+     [aapt] '--generate-dependencies'
+     [aapt] '-G'
+     [aapt] 'E:\Example\DemoSQLite\android\bin\proguard.txt'
+     [aapt] 
+     [aapt] The ' characters around the executable and arguments are
+     [aapt] not part of the command.
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] No sources found.
+    [javac] E:\Example\DemoSQLite\android\gen\R.java.d skipped - don't know how to handle it
+    [javac] pandroid\com\demosqlite\BuildConfig.java added as pandroid\com\demosqlite\BuildConfig.class doesn't exist.
+    [javac] pandroid\com\demosqlite\R.java added as pandroid\com\demosqlite\R.class is outdated.
+    [javac] Compiling 2 source files to E:\Example\DemoSQLite\android\bin\classes
+    [javac] Using modern compiler
+    [javac] Compilation arguments:
+    [javac] '-d'
+    [javac] 'E:\Example\DemoSQLite\android\bin\classes'
+    [javac] '-classpath'
+    [javac] 'E:\Example\DemoSQLite\android\bin\classes;E:\Example\DemoSQLite\android\libs\TIniFile.jar;E:\Zeljus\pandroid\sdk\tools\support\annotations.jar;E:\Example\DemoSQLite\android\libs\rtlClass.jar'
+    [javac] '-sourcepath'
+    [javac] 'E:\Example\DemoSQLite\android\src;E:\Example\DemoSQLite\android\gen'
+    [javac] '-target'
+    [javac] '1.6'
+    [javac] '-bootclasspath'
+    [javac] 'E:\Zeljus\pandroid\sdk\platforms\android-15\android.jar'
+    [javac] '-encoding'
+    [javac] 'UTF-8'
+    [javac] '-g'
+    [javac] '-source'
+    [javac] '1.6'
+    [javac] 
+    [javac] The ' characters around the executable and arguments are
+    [javac] not part of the command.
+    [javac] Files to be compiled:
+    [javac]     E:\Example\DemoSQLite\android\gen\pandroid\com\demosqlite\BuildConfig.java
+    [javac]     E:\Example\DemoSQLite\android\gen\pandroid\com\demosqlite\R.java
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: E:\Example\DemoSQLite\android\bin\classes
+      [dex] input: E:\Example\DemoSQLite\android\libs\TIniFile.jar
+      [dex] input: E:\Zeljus\pandroid\sdk\tools\support\annotations.jar
+      [dex] input: E:\Example\DemoSQLite\android\libs\rtlClass.jar
+      [dex] Pre-Dexing E:\Example\DemoSQLite\android\libs\TIniFile.jar -> TIniFile-6b220e904a251849e728be2b63ba80c3.jar
+       [dx] Current OS is Windows XP
+       [dx] Executing 'E:\Zeljus\pandroid\sdk\build-tools\23.0.3\dx.bat' with arguments:
+       [dx] '--dex'
+       [dx] '--output'
+       [dx] 'E:\Example\DemoSQLite\android\bin\dexedLibs\TIniFile-6b220e904a251849e728be2b63ba80c3.jar'
+       [dx] 'E:\Example\DemoSQLite\android\libs\TIniFile.jar'
+       [dx] 
+       [dx] The ' characters around the executable and arguments are
+       [dx] not part of the command.
+      [dex] Pre-Dexing E:\Zeljus\pandroid\sdk\tools\support\annotations.jar -> annotations-037eca86c549419bee842f43b3f01aba.jar
+       [dx] Current OS is Windows XP
+       [dx] Executing 'E:\Zeljus\pandroid\sdk\build-tools\23.0.3\dx.bat' with arguments:
+       [dx] '--dex'
+       [dx] '--output'
+       [dx] 'E:\Example\DemoSQLite\android\bin\dexedLibs\annotations-037eca86c549419bee842f43b3f01aba.jar'
+       [dx] 'E:\Zeljus\pandroid\sdk\tools\support\annotations.jar'
+       [dx] 
+       [dx] The ' characters around the executable and arguments are
+       [dx] not part of the command.
+      [dex] Pre-Dexing E:\Example\DemoSQLite\android\libs\rtlClass.jar -> rtlClass-3462f330c85ca5bfb1b19ee6867667ad.jar
+       [dx] Current OS is Windows XP
+       [dx] Executing 'E:\Zeljus\pandroid\sdk\build-tools\23.0.3\dx.bat' with arguments:
+       [dx] '--dex'
+       [dx] '--output'
+       [dx] 'E:\Example\DemoSQLite\android\bin\dexedLibs\rtlClass-3462f330c85ca5bfb1b19ee6867667ad.jar'
+       [dx] 'E:\Example\DemoSQLite\android\libs\rtlClass.jar'
+       [dx] 
+       [dx] The ' characters around the executable and arguments are
+       [dx] not part of the command.
+      [dex] Converting compiled files and external libraries into E:\Example\DemoSQLite\android\bin\classes.dex...
+       [dx] Current OS is Windows XP
+       [dx] Executing 'E:\Zeljus\pandroid\sdk\build-tools\23.0.3\dx.bat' with arguments:
+       [dx] '--dex'
+       [dx] '--output'
+       [dx] 'E:\Example\DemoSQLite\android\bin\classes.dex'
+       [dx] 'E:\Example\DemoSQLite\android\bin\classes'
+       [dx] 'E:\Example\DemoSQLite\android\bin\dexedLibs\TIniFile-6b220e904a251849e728be2b63ba80c3.jar'
+       [dx] 'E:\Example\DemoSQLite\android\bin\dexedLibs\annotations-037eca86c549419bee842f43b3f01aba.jar'
+       [dx] 'E:\Example\DemoSQLite\android\bin\dexedLibs\rtlClass-3462f330c85ca5bfb1b19ee6867667ad.jar'
+       [dx] 
+       [dx] The ' characters around the executable and arguments are
+       [dx] not part of the command.
+       [dx] Merged dex A (120 defs/113.3KiB) with dex B (1 defs/6.7KiB). Result is 121 defs/144.0KiB. Took 0.1s
+       [dx] Merged dex A (121 defs/144.0KiB) with dex B (2 defs/1.1KiB). Result is 123 defs/183.4KiB. Took 0.0s
+       [dx] Merged dex A (123 defs/183.4KiB) with dex B (54 defs/150.7KiB). Result is 177 defs/426.0KiB. Took 0.1s
+
+-crunch:
+   [crunch] Current OS is Windows XP
+   [crunch] Executing 'E:\Zeljus\pandroid\sdk\build-tools\23.0.3\aapt.exe' with arguments:
+   [crunch] 'crunch'
+   [crunch] '-v'
+   [crunch] '-S'
+   [crunch] 'E:\Example\DemoSQLite\android\res'
+   [crunch] '-C'
+   [crunch] 'E:\Example\DemoSQLite\android\bin\res'
+   [crunch] 
+   [crunch] The ' characters around the executable and arguments are
+   [crunch] not part of the command.
+   [crunch] Crunching PNG Files in source dir: E:\Example\DemoSQLite\android\res
+   [crunch] To destination dir: E:\Example\DemoSQLite\android\bin\res
+   [crunch] Processing image to cache: E:\Example\DemoSQLite\android\res\drawable\exit.png => E:\Example\DemoSQLite\android\bin\res\drawable\exit.png
+   [crunch]   (processed image to cache entry E:\Example\DemoSQLite\android\bin\res\drawable\exit.png: 0% size of source)
+   [crunch] Processing image to cache: E:\Example\DemoSQLite\android\res\drawable\ic_launcher.png => E:\Example\DemoSQLite\android\bin\res\drawable\ic_launcher.png
+   [crunch]   (processed image to cache entry E:\Example\DemoSQLite\android\bin\res\drawable\ic_launcher.png: 94% size of source)
+   [crunch] Processing image to cache: E:\Example\DemoSQLite\android\res\drawable\ic_next.png => E:\Example\DemoSQLite\android\bin\res\drawable\ic_next.png
+   [crunch]   (processed image to cache entry E:\Example\DemoSQLite\android\bin\res\drawable\ic_next.png: 0% size of source)
+   [crunch] Processing image to cache: E:\Example\DemoSQLite\android\res\drawable\logo.png => E:\Example\DemoSQLite\android\bin\res\drawable\logo.png
+   [crunch]   (processed image to cache entry E:\Example\DemoSQLite\android\bin\res\drawable\logo.png: 0% size of source)
+   [crunch] Crunched 4 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+     [aapt] Current OS is Windows XP
+     [aapt] Executing 'E:\Zeljus\pandroid\sdk\build-tools\23.0.3\aapt.exe' with arguments:
+     [aapt] 'package'
+     [aapt] '--no-crunch'
+     [aapt] '-f'
+     [aapt] '-M'
+     [aapt] 'E:\Example\DemoSQLite\android\bin\AndroidManifest.xml'
+     [aapt] '-S'
+     [aapt] 'E:\Example\DemoSQLite\android\bin\res'
+     [aapt] '-S'
+     [aapt] 'E:\Example\DemoSQLite\android\res'
+     [aapt] '-I'
+     [aapt] 'E:\Zeljus\pandroid\sdk\platforms\android-15\android.jar'
+     [aapt] '-F'
+     [aapt] 'E:\Example\DemoSQLite\android\bin\DemoSQLite.ap_'
+     [aapt] '--generate-dependencies'
+     [aapt] 
+     [aapt] The ' characters around the executable and arguments are
+     [aapt] not part of the command.
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating DemoSQLite-release.apk for release...
+
+-post-package:
+
+-release-prompt-for-password:
+Skipped because property 'has.password' set.
+
+-release-nosign:
+Skipped because property 'has.keystore' set.
+
+-release-sign:
+     [echo] Signing final apk...
+ [zipalign] Running zip align on final apk...
+[zip-align] Current OS is Windows XP
+[zip-align] Executing 'E:\Zeljus\pandroid\sdk\tools\zipalign.exe' with arguments:
+[zip-align] '-f'
+[zip-align] '4'
+[zip-align] 'E:\Example\DemoSQLite\android\bin\DemoSQLite-release-unaligned.apk'
+[zip-align] 'E:\Example\DemoSQLite\DemoSQLite.apk'
+[zip-align] 
+[zip-align] The ' characters around the executable and arguments are
+[zip-align] not part of the command.
+     [echo] Release Package: ..\DemoSQLite.apk
+[propertyfile] Creating new property file: E:\Example\DemoSQLite\android\bin\build.prop
+[propertyfile] Updating property file: E:\Example\DemoSQLite\android\bin\build.prop
+[propertyfile] Updating property file: E:\Example\DemoSQLite\android\bin\build.prop
+[propertyfile] Updating property file: E:\Example\DemoSQLite\android\bin\build.prop
+
+-post-build:
+
+release:
+
+BUILD SUCCESSFUL
+Total time: 8 seconds
