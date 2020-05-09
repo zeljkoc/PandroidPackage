@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<template
+    format="3"
+    revision="4"
+    name="Blank Activity"
+    minApi="7"
+    minBuildApi="14"
+    description="Creates a new blank activity, with an action bar and optional navigational elements such as tabs or horizontal swipe.">
+
+    <category value="Activities" />
+
+    <parameter
+        id="activityClass"
+        name="Activity Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        suggest="${layoutToActivity(layoutName)}"
+        default="MainActivity"
+        help="The name of the activity class to create" />
+
+    <parameter
+        id="layoutName"
+        name="Layout Name"
+        type="string"
+        constraints="layout|unique|nonempty"
+        suggest="${activityToLayout(activityClass)}"
+        default="activity_main"
+        help="The name of the layout to create for the activity" />
+
+    <parameter
+        id="fragmentLayoutName"
+        name="Fragment Layout Name"
+        type="string"
+        constraints="layout|unique|nonempty"
+        suggest="fragment_${classToResource(activityClass)}"
+        default="fragment_main"
+        help="The name of the layout to create for the activity's content fragment" />
+
+    <parameter
+        id="activityTitle"
+        name="Title"
+        type="string"
+        constraints="nonempty"
+        default="MainActivity"
+        suggest="${activityClass}"
+        help="The name of the activity. For launcher activities, the application title." />
+
+    <parameter
+        id="isLauncher"
+        name="Launcher Activity"
+        type="boolean"
+        default="false"
+        help="If true, this activity will have a CATEGORY_LAUNCHER intent filter, making it visible in the launcher" />
+
+    <parameter
+        id="parentActivityClass"
+        name="Hierarchical Parent"
+        type="string"
+        constraints="activity|exists|empty"
+        default=""
+        help="The hierarchical parent activity, used to provide a default implementation for the 'Up' button" />
+
+    <parameter
+        id="navType"
+        name="Navigation Type"
+        type="enum"
+        default="none"
+        help="The type of navigation to use for the activity" >
+        <option id="none" default="true">None</option>
+        <option id="pager">Swipe Views (ViewPager)</option>
+        <option id="tabs">Action Bar Tabs (with ViewPager)</option>
+        <option id="spinner">Action Bar Spinner</option>
+        <option id="drawer">Navigation Drawer</option>
+    </parameter>
+
+    <parameter
+        id="packageName"
+        name="Package name"
+        type="string"
+        constraints="package"
+        default="com.mycompany.myapp" />
+
+    <!-- 128x128 thumbnails relative to template.xml -->
+    <thumbs>
+        <!-- default thumbnail is required -->
+        <thumb>template_blank_activity.png</thumb>
+        <!-- attributes act as selectors based on chosen parameters -->
+        <thumb navType="none">template_blank_activity.png</thumb>
+        <thumb navType="tabs">template_blank_activity_tabs.png</thumb>
+        <thumb navType="pager">template_blank_activity_pager.png</thumb>
+        <thumb navType="spinner">template_blank_activity_dropdown.png</thumb>
+        <thumb navType="drawer">template_blank_activity_drawer.png</thumb>
+    </thumbs>
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
