@@ -58,4 +58,6 @@ TZCArrayAddapter, TZCToolBar
 
 #### Autor
 - Made by  __Željko Cvijanović__  and  __Miran Horjak__ 
+www.zeljus.com
+
 
