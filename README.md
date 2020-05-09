@@ -27,9 +27,6 @@ Pandroid exe or pandroid for linux compiled from PandroidTools
 -  The second part compiles the classes from the paskal code
 -  Lazarus compiler calls after pandorid.exe and makes a script to create apk, and create apk
 
-On linux it works fine and waits for compilation, which on windows i failed but make apk
-If you do not compile the apk on Windows, they can be run android\BuildApk.bat , and see the compilation.
-
 Attached is the possibility of a template more for arm-android compilation, such as pandroidmodule,
 making * .so then making  PandroidModule.jar and finally making PandroidModule.pas PandroidModule.inc for the compiler
 
