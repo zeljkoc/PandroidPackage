@@ -314,11 +314,11 @@ begin
           if ShellExecute(0, nil, PChar('cd '+gProjectDir+'\android\'), PChar('') , nil , 0) = 2 then Writeln ('OK ... cd ') else begin Writeln ('Error ... cd ');  {Abort;} end;
           if ShellExecute(0, nil, PChar('ant clean'), PChar('') , nil , 0)  = 2  then Writeln ('OK... ant clean') else begin Writeln ('Error... ant clean'); {Abort;} end;;
 
-           Str := gProjectDir+'\android\bin ';
+           Str := gProjectDir+'\android\bin';
            if CreateDirUTF8(Str) then Writeln('Create: '+Str) else begin Writeln('Error... Create: '+Str); {Abort}; end;;
            if CreateDirUTF8(Str+'\classes') then Writeln('Create: '+ Str+'\classes') else begin Writeln('Error... Create: '+ Str+'\classes'); {Abort}; end;
 
-           Str := gProjectDir+'\android\gen ';
+           Str := gProjectDir+'\android\gen';
            if CreateDirUTF8(Str) then Writeln('Create: '+Str) else begin Writeln('Error... Create: '+Str); {Abort;} end;
 
           if ShellExecute(0, nil, PChar(gAndroidSDKDir+'\build-tools\'+gBuildTools+'\aapt.exe '),
