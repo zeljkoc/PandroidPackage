@@ -7,7 +7,7 @@ unit Rjava;
 
 {$mode objfpc}{$H+}
 {$modeswitch unicodestrings}
-{$namespace pandroid.com.demosqlite}
+{$namespace zeljus.com.demosqlite}
 
 interface
 

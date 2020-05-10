@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android			="http://schemas.android.com/apk/res/android"
-  package				="pandroid.com.demosqlite"
+  package				="zeljus.com.demosqlite"
   android:versionCode			="1"
   android:installLocation		="preferExternal"
   android:versionName			="1.0">
@@ -33,7 +33,7 @@
 
     </activity>
 
-    <activity android:name		="org.achartengine.GraphicalActivity" />
+    <activity android:name		="TFormEdit" />
 
 </application>
 </manifest>

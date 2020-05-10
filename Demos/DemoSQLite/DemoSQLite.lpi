@@ -37,7 +37,7 @@
       <Item1>
         <Identifier Value="PandroidPkg"/>
         <Values Count="1">
-          <Item1 Value="pandroid.com.demosqlite"/>
+          <Item1 Value="zeljus.com.demosqlite"/>
         </Values>
       </Item1>
     </BuildMacros>

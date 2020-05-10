@@ -4,21 +4,45 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="1">
+    <Units Count="4">
       <Unit0>
         <Filename Value="DemoSQLite.pas"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="19"/>
-        <CursorPos Y="54"/>
+        <CursorPos X="29" Y="9"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit0>
+      <Unit1>
+        <Filename Value="Data.pas"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="fEdit.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="12" Y="16"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="android\AndroidManifest.xml"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="37" Y="34"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="XML"/>
+      </Unit3>
     </Units>
-    <JumpHistory Count="1">
+    <JumpHistory Count="2" HistoryIndex="1">
       <Position1>
         <Filename Value="DemoSQLite.pas"/>
-        <Caret Line="12" Column="39"/>
+        <Caret Line="19" Column="24"/>
       </Position1>
+      <Position2>
+        <Filename Value="DemoSQLite.pas"/>
+        <Caret Line="9" Column="29"/>
+      </Position2>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
