@@ -19,11 +19,11 @@ PandroidModule.inc
 Open DemoFirebird and compile jvm-android 
 DemoFirebird.apk
 
-__PandroidModule__
+__PandroidModule__ arm-android
 
 ![GitHub Logo](/images/PandroidModule1.png) 
 ![GitHub Logo](/images/PandroidModule2.png)
 
-__DemoFirebird__
+__DemoFirebird__ jvm-android
 
 ![GitHub Logo](/images/DemoFirebird.png)  
