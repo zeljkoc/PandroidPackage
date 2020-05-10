@@ -21,9 +21,9 @@ DemoFirebird.apk
 
 __PandroidModule__ arm-android
 
-![GitHub Logo](/images/PandroidModule1.png) 
-![GitHub Logo](/images/PandroidModule2.png)
+![GitHub Logo](/images/PandroidModule3.png) 
+![GitHub Logo](/images/PandroidModule4.png)
 
 __DemoFirebird__ jvm-android
 
-![GitHub Logo](/images/DemoFirebird.png)  
+![GitHub Logo](/images/DemoFirebird1.png)  
