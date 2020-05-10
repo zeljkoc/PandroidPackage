@@ -215,7 +215,7 @@ var
   lFile: TStringList;
   i: integer;
   {$IFDEF Linux}
-  Message: String
+  Message: String;
   arguments: array of string;
   executable: string;
   {$ELSE}
@@ -259,6 +259,14 @@ begin
        lFile.SaveToFile(gProjectDir + PathDelim + 'android'+ PathDelim + 'ant.properties');
 
        {$IFDEF LINUX}
+           //Delete apk
+           SetLength(arguments, 1);
+           executable := 'rm';
+           arguments[0] := gProjectDir+ PathDelim + gAppName+'.apk';
+           if ShellRun(gProjectDir + PathDelim + 'android' + PathDelim, executable, arguments, Message ) then
+                 Writeln('=================OK.... rm apk '+LineEnding + Message+LineEnding)
+           else  begin Writeln('=================ERROR .... rm apk '+LineEnding + Message+LineEnding); Abort; end;  
+           
            //ant clean
            SetLength(arguments, 1);
            executable := 'ant';
