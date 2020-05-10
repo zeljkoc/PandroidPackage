@@ -484,6 +484,34 @@ begin
               Writeln('========================OK.... START '+ gJavaPackageName +PathDelim+ gJavaPackageName+'.MainActivity' + LineEnding+ Message+ LineEnding)
            else begin Writeln('=================ERROR .... START '+ gJavaPackageName +PathDelim+ gJavaPackageName+'.MainActivity' + LineEnding + Message+ LineEnding); Abort; end;
            {$ELSE}
+            Writeln('======================== START ADB uninstall, install, start ');
+
+            lFile:= TStringList.Create;
+            try
+              lFile.Add('cd '+gProjectDir);
+              lFile.Add('adb shell pm uninstall -k '+gJavaPackageName);
+              lFile.Add('adb install '+gProjectDir+ PathDelim + gAppName+'.apk');
+              lFile.Add('adb shell am start -n '+gJavaPackageName +PathDelim+ gJavaPackageName+'.MainActivity');
+
+              lFile.SaveToFile(gProjectDir+'\android\BuildAdb.bat');
+
+              AProcess:= TProcess.Create(nil);
+              try
+                AProcess.CommandLine:= gProjectDir+'\android\BuildAdb.bat > '+gProjectDir+'\android\OutAdb.txt';
+                AProcess.Options:=[poWaitOnExit, poUsePipes];
+                AProcess.Execute;
+
+                if FileExistsUTF8(gProjectDir+'\android\OutAdb.txt') then begin
+                  lFile.LoadFromFile(gProjectDir+'\android\OutAdb.txt');
+                  Writeln(lFile.Text);
+                end;
+              finally
+                AProcess.Free;
+              end;
+
+            finally
+              lFile.Free;
+            end;
            {$ENDIF}
          end;
 
