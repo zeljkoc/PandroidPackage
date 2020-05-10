@@ -265,7 +265,7 @@ begin
            arguments[0] := gProjectDir+ PathDelim + gAppName+'.apk';
            if ShellRun(gProjectDir + PathDelim + 'android' + PathDelim, executable, arguments, Message ) then
                  Writeln('=================OK.... rm apk '+LineEnding + Message+LineEnding)
-           else  begin Writeln('=================ERROR .... rm apk '+LineEnding + Message+LineEnding); Abort; end;  
+           else  begin Writeln('=================ERROR .... rm apk '+LineEnding + Message+LineEnding); {Abort;} end;  
            
            //ant clean
            SetLength(arguments, 1);
