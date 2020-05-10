@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1587379556"/>
+  <Params Value=" -Tandroid -Parm -MObjFPC -Scghi -l -vewnhibq -Fi/home/zeljko/Android/DemoFirebird/pascalsrc/jni/lib/arm-android -Fl/usr/local/pandroid/FreePascal/binLibraries/android-5.0.x-api21-arm -Fu/usr/local/pandroid/FreePascal/Komponente/zc_PascalScript/Source -Fu/home/zeljko/Android/DemoFirebird/pascalsrc/jni/ -FU/home/zeljko/Android/DemoFirebird/pascalsrc/jni/lib/arm-android/ -FE/home/zeljko/Android/DemoFirebird/pascalsrc/lib/armeabi/ -o/home/zeljko/Android/DemoFirebird/pascalsrc/lib/armeabi/libpandroidmodule.so project1.lpr"/>
+</CONFIG>
