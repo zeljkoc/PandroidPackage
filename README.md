@@ -54,7 +54,7 @@ TZCArrayAddapter, TZCToolBar
 
 
 #### License
-- __pandroid__  is released under Mozilla Public License 2.0 (MPL-2.0)
+- __PandroidPackage__  is released under Mozilla Public License 2.0 (MPL-2.0)
 
 #### Autor
 - Made by  __Željko Cvijanović__  and  __Miran Horjak__ 
