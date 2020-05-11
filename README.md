@@ -37,8 +37,18 @@ making * .so then making  PandroidModule.jar and finally making PandroidModule.p
 #### Component overview
 ![Platforms](https://img.shields.io/badge/unit-StdCtrls-red.svg)
 ![Platforms](https://img.shields.io/badge/TTextView-blue.svg)
-, TLabelTextView, TEditText, TLabelEditText, TButton, TLabelEditTextButton, TLabelButton, TButtonLabel, 
-TButtonEditText, TImageButton, TCheckBox, TRadioGroup, TGridViewLayout
+![Platforms](https://img.shields.io/badge/TLabelTextView-blue.svg)
+![Platforms](https://img.shields.io/badge/TEditText-blue.svg)
+![Platforms](https://img.shields.io/badge/TLabelEditText-blue.svg)
+![Platforms](https://img.shields.io/badge/TButton-blue.svg)
+![Platforms](https://img.shields.io/badge/TLabelEditTextButton-blue.svg)
+![Platforms](https://img.shields.io/badge/TLabelButton-blue.svg)
+![Platforms](https://img.shields.io/badge/TButtonLabel-blue.svg)
+![Platforms](https://img.shields.io/badge/TButtonEditText-blue.svg)
+![Platforms](https://img.shields.io/badge/TImageButton-blue.svg)
+![Platforms](https://img.shields.io/badge/TCheckBox-blue.svg)
+![Platforms](https://img.shields.io/badge/TRadioGroup-blue.svg)
+![Platforms](https://img.shields.io/badge/TGridViewLayout-blue.svg)
 
 ![Platforms](https://img.shields.io/badge/unit-DB-red.svg)
 TValue, TField, TFieldDef, TCursorDataSet, TDataSetAddapter, TDBEditText, TDBTextView, TDBDialog, TDBGridViewLayout,
