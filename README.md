@@ -36,10 +36,7 @@ making * .so then making  PandroidModule.jar and finally making PandroidModule.p
 
 #### Component overview
 ![Platforms](https://img.shields.io/badge/unit-StdCtrls-red.svg)
-<div class="text-white bg-blue mb-2">
-  TTextView
-</div>
-, TLabelTextView, TEditText, TLabelEditText, TButton, TLabelEditTextButton, TLabelButton, TButtonLabel, 
+color.Blue("TTextView"), TLabelTextView, TEditText, TLabelEditText, TButton, TLabelEditTextButton, TLabelButton, TButtonLabel, 
 TButtonEditText, TImageButton, TCheckBox, TRadioGroup, TGridViewLayout
 
 ![Platforms](https://img.shields.io/badge/unit-DB-red.svg)
