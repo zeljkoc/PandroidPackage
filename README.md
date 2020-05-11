@@ -51,18 +51,36 @@ making * .so then making  PandroidModule.jar and finally making PandroidModule.p
 ![Platforms](https://img.shields.io/badge/TGridViewLayout-blue.svg)
 
 ![Platforms](https://img.shields.io/badge/unit-DB-red.svg)
-TValue, TField, TFieldDef, TCursorDataSet, TDataSetAddapter, TDBEditText, TDBTextView, TDBDialog, TDBGridViewLayout,
-TDBFindDialog, TDBLookupComboBox, TDBGridViewCheckedLayout
+![Platforms](https://img.shields.io/badge/TValue-blue.svg)
+![Platforms](https://img.shields.io/badge/TField-blue.svg)
+![Platforms](https://img.shields.io/badge/TFieldDef-blue.svg)
+![Platforms](https://img.shields.io/badge/TCursorDataSet-blue.svg)
+![Platforms](https://img.shields.io/badge/TDataSetAddapter-blue.svg)
+![Platforms](https://img.shields.io/badge/TDBEditText-blue.svg)
+![Platforms](https://img.shields.io/badge/TDBTextView-blue.svg)
+![Platforms](https://img.shields.io/badge/TDBDialog-blue.svg)
+![Platforms](https://img.shields.io/badge/TDBGridViewLayout-blue.svg)
+![Platforms](https://img.shields.io/badge/TDBFindDialog-blue.svg)
+![Platforms](https://img.shields.io/badge/TDBLookupComboBox-blue.svg)
+![Platforms](https://img.shields.io/badge/TDBGridViewCheckedLayout-blue.svg)
 
 ![Platforms](https://img.shields.io/badge/unit-Dialogs-red.svg)
-TDialog, TTimePickerDialog, TDatePickerDialog, TUserNamePasswordDialog, TEditFileDialog, TTextEditDialog, TYesNoDialog
+![Platforms](https://img.shields.io/badge/TDialog-blue.svg)
+![Platforms](https://img.shields.io/badge/TTimePickerDialog-blue.svg)
+![Platforms](https://img.shields.io/badge/TDatePickerDialog-blue.svg)
+![Platforms](https://img.shields.io/badge/TUserNamePasswordDialog-blue.svg)
+![Platforms](https://img.shields.io/badge/TEditFileDialog-blue.svg)
+![Platforms](https://img.shields.io/badge/TTextEditDialog-blue.svg)
+![Platforms](https://img.shields.io/badge/TYesNoDialog-blue.svg)
 
 ![Platforms](https://img.shields.io/badge/unit-AZCForms-red.svg)
-AZCForm, AZCHorizontalForm, THederForms
+![Platforms](https://img.shields.io/badge/AZCForm-blue.svg)
+![Platforms](https://img.shields.io/badge/AZCHorizontalForm-blue.svg)
+![Platforms](https://img.shields.io/badge/THederForms-blue.svg)
 
 ![Platforms](https://img.shields.io/badge/unit-AZCToolBar-red.svg)
-TZCArrayAddapter, TZCToolBar
-
+![Platforms](https://img.shields.io/badge/TZCArrayAddapter-blue.svg)
+![Platforms](https://img.shields.io/badge/TZCToolBar-blue.svg)
 
 #### License
 - __PandroidPackage__  is released under Mozilla Public License 2.0 (MPL-2.0)
