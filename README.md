@@ -30,10 +30,6 @@ Pandroid exe or pandroid for linux compiled from PandroidTools
 Attached is the possibility of a template more for arm-android compilation, such as pandroidmodule,
 making * .so then making  PandroidModule.jar and finally making PandroidModule.pas PandroidModule.inc for the compiler
 
-
-#### Screenshot
-![GitHub Logo](/images/pandroid.png) 
-
 #### Component overview
 ![Platforms](https://img.shields.io/badge/unit-StdCtrls-red.svg)
 ![Platforms](https://img.shields.io/badge/TTextView-blue.svg)
@@ -81,6 +77,9 @@ making * .so then making  PandroidModule.jar and finally making PandroidModule.p
 ![Platforms](https://img.shields.io/badge/unit-AZCToolBar-red.svg)
 ![Platforms](https://img.shields.io/badge/TZCArrayAddapter-blue.svg)
 ![Platforms](https://img.shields.io/badge/TZCToolBar-blue.svg)
+
+#### Screenshot
+![GitHub Logo](/images/pandroid.png) 
 
 #### License
 - __PandroidPackage__  is released under Mozilla Public License 2.0 (MPL-2.0)
