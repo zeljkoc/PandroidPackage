@@ -36,7 +36,7 @@ making * .so then making  PandroidModule.jar and finally making PandroidModule.p
 
 #### Component overview
 ![Platforms](https://img.shields.io/badge/unit-StdCtrls-red.svg)
-![Platforms](https://img.shields.io/badge/TTextView-green.svg)
+![Platforms](https://img.shields.io/badge/TTextView-blue.svg)
 , TLabelTextView, TEditText, TLabelEditText, TButton, TLabelEditTextButton, TLabelButton, TButtonLabel, 
 TButtonEditText, TImageButton, TCheckBox, TRadioGroup, TGridViewLayout
 
