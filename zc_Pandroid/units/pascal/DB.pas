@@ -608,7 +608,7 @@ begin
   if not FReadOnlyEdit then begin
       FIDRecord := para3;
       FAdapter.CursorDataSet.Index := FIDRecord;
-      Refresh;
+      // Refresh; //edit not change position
 
       with FEditDialog do begin //EDIT
         ID := id_edit;
