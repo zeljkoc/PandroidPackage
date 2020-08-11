@@ -65,6 +65,7 @@ type
   public
     constructor create(aContext: ACContext; aButtonClickListener: AVView.InnerOnClickListener ); overload;
     procedure AddButtonLabel(aButtonLabel: TButtonLabel; aButtonID: jint);
+    procedure AddButtonEditText(aButtonEditText: TButtonEditText; aButtonID: jint); 
     procedure AddButton(aButton: TButton; aButtonID: jint; aButtonText: String);
 
     property ButtonWidth: integer read FButtonWidth write FButtonWidth;
@@ -92,6 +93,15 @@ begin
    aButtonLabel.Button.setOnClickListener(FButtonClickListener);
    aButtonLabel.setPadding(6, 3, 6, 3);
    addView(aButtonLabel);
+end;
+
+procedure THederForms.AddButtonEditText(aButtonEditText: TButtonEditText; aButtonID: jint);
+begin
+   aButtonEditText.Button.Id := aButtonID;
+   aButtonEditText.Button.Width := FButtonWidth;
+   aButtonEditText.Button.setOnClickListener(FButtonClickListener);
+   aButtonEditText.setPadding(6, 3, 6, 3);
+   addView(aButtonEditText);
 end;
 
 procedure THederForms.AddButton(aButton: TButton; aButtonID: jint; aButtonText: String);
