@@ -17,6 +17,8 @@ interface
 , DataBase, StdCtrls, Dialogs;
 
 type
+  TonRefresh = function (aValue: boolean) : boolean of object; 
+
   TFieldDef = class;
 
   TCreateViewMethod = function (aContext: ACContext; aField: TFieldDef): AVView ;
@@ -140,6 +142,7 @@ type
      FFields: JUArrayList;
      FFieldAll: TFieldDef;
      FTableName: JLString;
+     FonRefresh: TonRefresh;
      function ReadFieldDef(aCursor: ADCursor): TFieldDef;
      procedure ReadFieldDefType;
      procedure DefineCursor(Value: ADCursor);
@@ -177,6 +180,8 @@ type
 
     property TableName: JLString write SetTableName;
     property FieldAll: TFieldDef read FFieldAll;
+    
+    property onRefresh: TonRefresh read FonRefresh write FonRefresh; 
   end;
 
   { TDataSetAddapter }
@@ -1026,6 +1031,7 @@ begin
   i:= FIndex;
   SetSelect(FSQLSelect);
   FIndex := i;
+  if Assigned(FonRefresh) then FonRefresh(true);
 end;
 
 function TCursorDataSet.Eof: boolean;
