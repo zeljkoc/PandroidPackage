@@ -17,7 +17,7 @@ You need to install
 - [x] [apache __ant__](https://ant.apache.org/)
 
 Exampl: <br/>
-Debiana buster lxde 64 bit <br/>
+__Debiana buster lxde 64 bit__ <br/>
 #: apt-get install wget <br/>
 #: wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add - <br/>
 #: nano /etc/apt/sources.list <br/>
