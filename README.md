@@ -16,18 +16,17 @@ You need to install
 - [x] [__OpenJdk-8__](https://developers.redhat.com/products/openjdk/download)
 - [x] [apache __ant__](https://ant.apache.org/)
 
-Exampl: 
-Debiana buster lxde 64 bit
+Exampl: <br/>
+Debiana buster lxde 64 bit <br/>
+#: apt-get install wget <br/>
+#: wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add - <br/>
+#: nano /etc/apt/sources.list <br/>
+  deb https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/ buster main <br/>
 
-#: apt-get install wget
-#: wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
-#: nano /etc/apt/sources.list
-  deb https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/ buster main
-
-#: apt-get update  
-#: apt-get install libgtk2.0-dev gdb adoptopenjdk-8-jdk android-tools-adb ant mtp-tools aapt zip git  
-#: update-alternatives --config java
-(set openjdk-8-jdk)
+#: apt-get update  <br/>
+#: apt-get install libgtk2.0-dev gdb adoptopenjdk-8-jdk android-tools-adb ant mtp-tools aapt zip git <br/> 
+#: update-alternatives --config java <br/>
+(set openjdk-8-jdk) <br/>
 
 
 for lazarus cross compile ([__laz4android__](https://sourceforge.net/projects/laz4android/))
