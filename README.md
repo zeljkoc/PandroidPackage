@@ -18,6 +18,7 @@ You need to install
 
 Exampl: 
 Debiana buster lxde 64 bit
+-----------------------------------
 #: apt-get install wget
 #: wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add -
 #: nano /etc/apt/sources.list
@@ -27,8 +28,7 @@ Debiana buster lxde 64 bit
 #: apt-get install libgtk2.0-dev gdb adoptopenjdk-8-jdk android-tools-adb ant mtp-tools aapt zip git  
 #: update-alternatives --config java
 (set openjdk-8-jdk)
-
-
+----------------------------------
 
 for lazarus cross compile ([__laz4android__](https://sourceforge.net/projects/laz4android/))
 - [x] __jvm-android__  (android vizual create AWLinearLayout, AWButton, AWEditText, AWTextView, ...; include *.jar file)     
