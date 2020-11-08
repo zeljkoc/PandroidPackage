@@ -16,7 +16,7 @@ You need to install
 - [x] [__OpenJdk-8__](https://developers.redhat.com/products/openjdk/download)
 - [x] [apache __ant__](https://ant.apache.org/)
 
-Exampl: (openjdk-8-jdk and appache ant) <br/>
+Exampl: (openjdk-8-jdk and apache ant) <br/>
 __Debiana buster lxde 64 bit__ <br/>
 #: apt-get install wget <br/>
 #: wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo apt-key add - <br/>
