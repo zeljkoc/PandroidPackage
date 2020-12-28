@@ -17,8 +17,14 @@ void setup() {
   Serial.begin(115200);
   delay(100);
   WiFi.begin(ssid, password);
-  delay(100);
-  Serial.println(".");
+  if (!WiFi.config(IPAddress(192.168.1.212),
+                   IPAddress(192,168,1,1),
+                   IPAddress(255,255,255,0),
+                   IPAddress(8,8,8,8),
+                   IPAddress(8,8,4,4) ))
+                   {Serial.println("STA Failed to configure");}
+                    
+  Serial.println("Connecting");
  
   while (WiFi.status() != WL_CONNECTED) { delay(500); Serial.print("."); }
  
