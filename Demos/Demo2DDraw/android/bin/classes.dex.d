@@ -1,0 +1,19 @@
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes.dex : \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/Demo2DDraw.ppu \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/androidr29.class \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/Rjava.ppu \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/androidr29.ppu \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/zeljus/com/units/AActivity.class \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/zeljus/com/units/Activity.class \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/zeljus/com/demo2ddraw/BuildConfig.class \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/zeljus/com/demo2ddraw/R$style.class \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/zeljus/com/demo2ddraw/Rjava.class \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/zeljus/com/demo2ddraw/MyView.class \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/zeljus/com/demo2ddraw/R$string_.class \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/zeljus/com/demo2ddraw/R$drawable.class \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/zeljus/com/demo2ddraw/R.class \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/zeljus/com/demo2ddraw/MainActivity.class \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/zeljus/com/demo2ddraw/Demo2DDraw.class \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/zeljus/com/demo2ddraw/R$attr.class \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/classes/AActivity.ppu \
+/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo2DDraw/android/bin/dexedLibs/rtlClass-3d134b4db82ba7cdea20da9686aecd70.jar \

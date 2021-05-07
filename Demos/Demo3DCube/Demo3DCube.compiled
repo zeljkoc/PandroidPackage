@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/pandroid/FreePascal/fpc/bin/fpc" Date="1596369850"/>
+  <Params Value=" -Tandroid -Pjvm -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -Fi/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/units -Fu/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/units -Fu/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/units/pascal -Fu/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo3DCube/ -FE/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo3DCube/android/bin/classes/ -o/usr/local/pandroid/FreePascal/Komponente/zc_Pandroid/Demos/Demo3DCube/android/bin/classes/Demo3DCube -dandroid29 Demo3DCube.pas"/>
+</CONFIG>

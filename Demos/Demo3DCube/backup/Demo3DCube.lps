@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Demo3DCube.pas"/>
+        <CursorPos Y="8"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="MyView.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="43"/>
+        <CursorPos X="43" Y="46"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="MyElemnet.pas"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="31" Y="7"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="3">
+      <Position>
+        <Filename Value="Demo3DCube.pas"/>
+        <Caret Line="9" Column="24"/>
+      </Position>
+      <Position>
+        <Filename Value="MyView.pas"/>
+        <Caret Line="8" Column="7"/>
+      </Position>
+      <Position>
+        <Filename Value="Demo3DCube.pas"/>
+        <Caret Line="8"/>
+      </Position>
+      <Position>
+        <Filename Value="MyView.pas"/>
+        <Caret Line="35" Column="33" TopLine="24"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
